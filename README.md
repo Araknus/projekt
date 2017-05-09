@@ -6,26 +6,26 @@ Typy użytkowników:
 - Nauczyciel
 - Uczeń
 
-Każdy użytkownik:
+# Każdy użytkownik:
 
--może się zalogować (jest autoryzowany przy logowaniu)
--może się wylogować (będąc zalogowany)
--może się cofnąć do poprzedniego ekranu (będąc zalogowany)
+- może się zalogować (jest autoryzowany przy logowaniu)
+- może się wylogować (będąc zalogowany)
+- może się cofnąć do poprzedniego ekranu (będąc zalogowany)
 
-*Nauczyciel (po zalogowaniu):
+# Nauczyciel (po zalogowaniu):
 - aplikacja wyświetla listę klas (do projektu przyjmijmy klasę IA i IB)
 - nauczyciel wybiera z listy konkretną klasę
 - wyświetla się lista uczniów (do projektu przyjmijmy po 10 osób w każdej klasie)
--po wyborze konkretnego ucznia wyświetla się jego dziennik z przedmiotu prowadzonego przez zalogowanego nauczyciela
--nauczyciel może każdą ocenę dodać, edytować i usunąć (nie potrzeba dodatkowo zatwierdzać operacji)
+- po wyborze konkretnego ucznia wyświetla się jego dziennik z przedmiotu prowadzonego przez zalogowanego nauczyciela
+- nauczyciel może każdą ocenę dodać, edytować i usunąć (nie potrzeba dodatkowo zatwierdzać operacji)
 
-*Uczeń (po zalogowaniu)
+# Uczeń (po zalogowaniu)
 - widzi dwa interaktywne okienka ("Moja klasa" i "Mój dziennik")
--po wyborze "Mojej klasy", na ekranie wyświetlani są uczniowie należący do klasy ucznia
--po wyborze "Mojego dziennika", wyświetlane są interaktywne okienka z nazwami przedmiotu (do projektu przyjmijmy Matematykę i Język Polski)
--po wyborze przedmiotu wyświetlane są oceny z wybranego przedmiotu
+- po wyborze "Mojej klasy", na ekranie wyświetlani są uczniowie należący do klasy ucznia
+- po wyborze "Mojego dziennika", wyświetlane są interaktywne okienka z nazwami przedmiotu (do projektu przyjmijmy Matematykę i Język Polski)
+- po wyborze przedmiotu wyświetlane są oceny z wybranego przedmiotu
 
-W skrócie:
+# W skrócie:
 - brak możliwości rejestracji, dane użytkowników są wrzucone do bazy danych
 - dwa typy użytkowników
 - dwóch nauczycieli (jeden od matematyki, drugi od języka polskiego)
