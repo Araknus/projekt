@@ -3,8 +3,8 @@ projekt na ZPO
 
 Typy użytkowników:
 
--Nauczyciel
--Uczeń
+- Nauczyciel
+- Uczeń
 
 Każdy użytkownik:
 
