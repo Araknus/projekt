@@ -26,7 +26,7 @@ Typy użytkowników:
 - po wyborze "Mojego dziennika", wyświetlane są interaktywne okienka z nazwami przedmiotu (do projektu przyjmijmy Matematykę i Język Polski)
 - po wyborze przedmiotu wyświetlane są oceny z wybranego przedmiotu
 
-# (opcjonalnie) - administrator
+# (opcjonalnie) - Administrator
 - dodaje / usuwa / edytuje nauczycieli i uczniów
 
 # W skrócie:
