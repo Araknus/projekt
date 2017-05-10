@@ -5,6 +5,7 @@ Typy użytkowników:
 
 - Nauczyciel
 - Uczeń
+- (opcjonalnie) Administrator
 
 # Każdy użytkownik:
 
@@ -24,6 +25,9 @@ Typy użytkowników:
 - po wyborze "Mojej klasy", na ekranie wyświetlani są uczniowie należący do klasy ucznia
 - po wyborze "Mojego dziennika", wyświetlane są interaktywne okienka z nazwami przedmiotu (do projektu przyjmijmy Matematykę i Język Polski)
 - po wyborze przedmiotu wyświetlane są oceny z wybranego przedmiotu
+
+# (opcjonalnie) - administrator
+- dodaje / usuwa / edytuje nauczycieli i uczniów
 
 # W skrócie:
 - brak możliwości rejestracji, dane użytkowników są wrzucone do bazy danych
