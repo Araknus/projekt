@@ -1,7 +1,7 @@
-# projekt
-projekt na ZPO
+# Projekt na ZPO
 
-Typy użytkowników:
+
+# Typy użytkowników:
 
 - Nauczyciel
 - Uczeń
@@ -39,14 +39,6 @@ Typy użytkowników:
 - logowanie to trzy pierwsze litery imienia + trzy pierwsze litery nazwiska + dwie ostatnie cyfry z roku urodzenia + @school.pl - 
 dla przykładu Jan Kowalski urodzony w 1993 roku będzie się logował za pomocą loginu jankow93@school.pl, hasło początkowe jest takie same,
 ale użytkownik ma możliwość jego zmiany
-
-
-
-
-
-
-
-
 
 
 
