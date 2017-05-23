@@ -1,0 +1,100 @@
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\csc.exe
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\csc.exe.config
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\csc.rsp
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\csi.exe
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\csi.rsp
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\System.AppContext.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\System.Collections.Immutable.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\System.IO.FileSystem.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\vbc.exe
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\vbc.exe.config
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\vbc.rsp
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\VBCSCompiler.exe
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\roslyn\VBCSCompiler.exe.config
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\ProjektZPO.dll.config
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\ProjektZPO.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\ProjektZPO.pdb
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\EntityFramework.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\EntityFramework.SqlServer.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\Newtonsoft.Json.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Net.Http.Formatting.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Web.Http.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Web.Http.WebHost.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\EntityFramework.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\EntityFramework.SqlServer.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\Newtonsoft.Json.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Net.Http.Formatting.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Web.Http.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Web.Http.WebHost.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\obj\Debug\ProjektZPO.csprojResolveAssemblyReference.cache
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\obj\Debug\ProjektZPO.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\obj\Debug\ProjektZPO.pdb
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\Npgsql.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Threading.Tasks.Extensions.dll
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\Npgsql.xml
+c:\users\piotras\documents\visual studio 2017\Projects\ProjektZPO\ProjektZPO\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\ProjektZPO.dll.config
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\ProjektZPO.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\ProjektZPO.pdb
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\Npgsql.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\Npgsql.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\obj\Debug\ProjektZPO.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\obj\Debug\ProjektZPO.dll
+C:\Users\Admin\Desktop\ProjektZPO\ProjektZPO\obj\Debug\ProjektZPO.pdb
