@@ -1,0 +1,71 @@
+﻿@using ProjektZPO1
+@model ProjektZPO1.Models.User
+@{
+    ViewBag.Title = "Strona główna";
+
+}
+
+@{
+    if (Session["Id"] == null)
+    {
+
+        <div class="jumbotron">
+            <h1>Dziennik elektroniczny</h1>
+            <p class="lead">Sprawdź swoje wyniki nauczania online.</p>
+            <div class="text-center">
+                <button class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#login">
+                    Okno logowania
+                </button>
+            </div>
+        </div>
+
+        <div id="login" class="well collapse">
+            <h2>
+                Okno logowania
+            </h2>
+            <hr />
+            <section id="loginForm">
+                @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Login, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Login, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Login, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Zaloguj się" class="btn btn-default" />
+                        </div>
+                    </div>
+                }
+            </section>
+        </div>
+    }
+    else
+    {
+        if (Session["UserType"].ToString() == "0")
+        {
+            Response.Redirect("~/Pupil/Index");
+        }
+        if (Session["UserType"].ToString() == "1")
+        {
+            Response.Redirect("~/Teacher/Index");
+        }
+        if (Session["UserType"].ToString() == "2")
+        {
+            Response.Redirect("~/Admin/Index");
+        }
+    }
+}
+
+@Scripts.Render("~/bundles/jqueryval")

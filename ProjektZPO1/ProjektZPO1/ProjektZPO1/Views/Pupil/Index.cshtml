@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Pupil";
+
+    if (Session["Id"] == null || Session["UserType"].ToString() != "0")
+    {
+        Response.Redirect("~/Home/Index");
+    }
+}
+
+<div class="jumbotron">
+    <h1>
+        Panel ucznia
+    </h1>
+    <p class="lead text-right">Zalogowałeś się jako @Session["UserName"].</p>
+    <div class="text-right">
+        <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Logout", "Admin")'">
+            Wyloguj się
+        </button>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-6 text-center">
+        <h2>
+            Zobacz kto się z Tobą uczy.
+        </h2>
+        <p>
+            Wypisywana jest lista osób z Twojej klasy.
+        </p>
+        <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("FriendsList", "Pupil")'">
+            Zobacz
+        </button>
+    </div>
+    <div class="col-md-6 text-center">
+        <h2>
+            Sprawdź swoje wyniki kształcenia.
+        </h2>
+        <p>
+            Wypisywane są oceny z poszczególnych przedmiotów
+        </p>
+        <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Home")'">
+            Sprawdź
+        </button>
+    </div>
+</div>

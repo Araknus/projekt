@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Teacher";
+}
+
+<div class="jumbotron">
+    <h1>
+        Panel nauczyciela
+    </h1>
+    <p class="lead text-right">Zalogowałeś się jako @Session["UserName"].</p>
+    <div class="text-right">
+        <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Logout", "Admin")'">
+            Wyloguj się
+        </button>
+    </div>
+</div>
+<hr />

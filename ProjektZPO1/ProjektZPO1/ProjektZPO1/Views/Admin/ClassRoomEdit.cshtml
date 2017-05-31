@@ -1,0 +1,48 @@
+﻿@model ProjektZPO1.Models.ClassRoom
+@{
+    ViewBag.Title = "ClassRoomEdit";
+
+    if (Session["Id"] == null || Session["UserType"].ToString() != "2")
+    {
+        Response.Redirect("~/Home/Index");
+    }
+}
+
+<div class="jumbotron">
+    <h1>
+        Edycja klasy
+    </h1>
+    <div class="text-right">
+        <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("ClassRoomsList", "Admin")'">
+            Cofnij
+        </button>
+    </div>
+</div>
+
+@using (Html.BeginForm("ClassRoomEditSubmit", "Admin", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Id, new { @class = "col-md-4 control-label hidden" })
+        <div class="col-md-8">
+            @Html.TextBoxFor(m => m.Id, new { @class = "form-control hidden" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, new { @class = "col-md-4 control-label" })
+        <div class="col-md-8">
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description, new { @class = "col-md-4 control-label" })
+        <div class="col-md-8">
+            @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-4 col-md-8">
+            <input type="submit" value="Edytuj" class="btn btn-primary" />
+        </div>
+    </div>
+
+}

@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="pupilModal" class="modal fade" role="dialog">
+    @Html.Partial("~/Views/Modals/PupilModal.cshtml")
+</div>
+
+<div id="teacherModal" class="modal fade" role="dialog">
+    @Html.Partial("~/Views/Modals/TeacherModal.cshtml")
+</div>
+
+<div id="subjectModal" class="modal fade" role="dialog">
+    @Html.Partial("~/Views/Modals/SubjectModal.cshtml")
+</div>
+
+<div id="classRoomModal" class="modal fade" role="dialog">
+    @Html.Partial("~/Views/Modals/ClassRoomModal.cshtml")
+</div>
+
+<div class="jumbotron">
+    <h1>
+        Panel administratora
+    </h1>
+    <p class="lead">Możesz tutaj zarządzać systemem.</p>
+    <div class="text-right">
+        <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Logout", "Admin")'">
+            Wyloguj się
+        </button>
+    </div>
+</div>
+<hr />
+
+@{
+    if (ViewBag.isDoneU != null)
+    {
+        if (ViewBag.isDoneU == "ok")
+        {
+            <div class="alert alert-info alert-dismissable fade in">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Sukces!</strong> @ViewBag.Message
+</div>
+        }
+        else
+        {
+            <div class="alert alert-info alert-dismissable fade in">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Uwaga!</strong> @ViewBag.Message
+            </div>
+        }
+    }
+}
+
+<div class="well row">
+
+    <div class="col-md-3 text-center">
+        <h3>
+            Okno zarządzania uczniami
+        </h3>
+        <div class="text-center">
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#pupilModal">Dodaj uczniów</button>
+                <button type="button" class="btn btn-default btn-md" onclick="location.href='@Url.Action("PupilsList", "Admin")'" >
+                    Lista uczniów
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 text-center">
+        <h3>
+            Okno zarządzania nauczycielami
+        </h3>
+        <div class="text-center">
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#teacherModal">Dodaj nauczycieli</button>
+                <button type="button" class="btn btn-default btn-md" onclick="location.href='@Url.Action("TeachersList", "Admin")'">
+                    Lista nauczycieli
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 text-center">
+        <h3>
+            Okno zarządzania klasami
+        </h3>
+        <div class="text-center">
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#classRoomModal">Dodaj klasy</button>
+                <button type="button" class="btn btn-default btn-md" onclick="location.href='@Url.Action("ClassRoomsList", "Admin")'">
+                    Lista klas
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 text-center">
+        <h3>
+            Okno zarządzania przedmiotami
+        </h3>
+        <div class="text-center">
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#subjectModal">Dodaj przedmioty</button>
+                <button type="button" class="btn btn-default btn-md" onclick="location.href='@Url.Action("SubjectsList", "Admin")'">
+                    Lista przemiotów
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
